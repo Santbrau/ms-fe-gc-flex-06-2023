@@ -1,0 +1,226 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.head {
+    height: 5vh;
+    display: flex;
+}
+
+.head-iz {
+    width: 50vw;
+    display: flex;
+    text-align: left;
+    padding: 2.5vh;
+    font-size: 85%;
+}
+
+.head-der {
+    width: 50vw;
+    display: flex;
+    justify-content: end;
+    padding-right: 2.5vh;
+    padding-top: 2.5vh;;
+    font-size: 80%;
+}
+
+.aplicaciones {
+    background-image: url(./images/apps.png);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    opacity: 60%;
+    width: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.8vh;
+    margin-left: 1vh;
+}
+
+.cuenta {
+    background-image: url(./images/cuenta.png);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    opacity: 60%;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.9vh;
+}
+
+.main {
+    height: 85vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-imagen {
+    margin-top: -11.5vh;
+    margin-right: 0.5vh;
+    background-image: url(./images/doodle.PNG);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    width: 50vw;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-buscador { 
+    width: 50vw;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+	align-items:center;
+}
+
+.cuadrodebusqueda {
+    margin-top: 3.5vh;
+    margin-left: 20vh;
+    width: 30vw;
+    height: 5vh;
+    border-collapse: collapse;
+    border-radius: 25px;
+    border: 1px solid rgba(202, 197, 197, 0.658);
+    display: flex;
+}
+
+.lupa {
+    width: 2vw;
+    height: 5vh;
+    background-image: url(./images/lupa.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    opacity: 50%;
+    background-position: center;
+    display: flex;
+    margin-left: 0.5vh;
+}
+
+.camara {
+    width: 2vw;
+    height: 5vh;
+    background-image: url(./images/camara.png);
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+}
+
+.micro {
+    width: 2vw;
+    height: 5vh;
+    background-image: url(./images/micro.png);
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    text-align: end;
+    margin-left: 48vh;
+}
+
+.main-iconos { 
+    width: 50vw;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vh;
+    margin-right: -57vh;
+}
+
+.main-idiomas {
+    width: 50vw;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    margin-left: -1vh;
+    margin-top: -1vh;
+    font-size: 80%;
+    text-align: center;
+}
+
+.footer {height: 10vh;}
+
+.footer-top {
+    background-color: rgb(238, 238, 238);
+    color: rgb(116, 116, 116);
+    height: 3.2vh;
+    font-size: 95%;
+    padding-left:  3.2vh;
+    padding-top: 1.6vh;
+    border-bottom: 1px solid rgba(116, 116, 116, 0.192);
+}
+
+.footer-bot {
+    background-color: rgb(238, 238, 238);
+    color: rgb(116, 116, 116);
+    height: 4vh;
+    display: flex;
+    font-size: 87%;
+    padding-top: 1.1vh;
+    overflow: hidden;
+}
+
+.links-iz {
+    height: 5vh;
+    width: 33.3vw;
+    display: flex;
+    padding-left: 3.7vh;
+    padding-top: 0.6vh;
+    overflow: hidden;
+}
+
+.links-der {
+    height: 5vh;
+    width: 33.3vw;
+    display: flex;
+    justify-content: end;
+    margin-right: 3.7vh;
+    padding-top: 0.6vh;
+    overflow: hidden;
+}
+
+.carbono {
+    height: 5vh;
+    width: 33.3vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 0.6vh;
+    overflow: hidden;
+    background-image: url(./images/hoja.png);
+    background-repeat: no-repeat;
+    background-size: 3%;
+    background-position-x: 16.5vh;;
+}
+
+ul{
+    justify-content: center;
+	align-items:center;
+    font-size: 85%;
+    list-style-type: none;
+    display: flex;
+    width:35%; 
+}
+
+li { 
+    flex-grow: 1;
+    display:block;
+    padding:0.5em;
+    background-color: rgba(202, 197, 197, 0.144);
+    text-align: center;
+    margin-left: 0.8em;
+    text-decoration:none;
+    }
+
+    #color-azul {
+        color: rgb(0, 0, 182);
+    }
