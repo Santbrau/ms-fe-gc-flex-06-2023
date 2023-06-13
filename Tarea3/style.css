@@ -1,0 +1,271 @@
+body {
+margin: 0;
+font-family: Arial, Helvetica;
+}
+
+.container {
+    background-color: rgb(24, 24, 24);
+    width: 100vw;
+    height: 100vh;
+}
+
+.falsohead {
+    background: linear-gradient(to bottom, #000000, rgba(26, 26, 26, 0));
+    width: 100vw;
+    height: 7vh;
+    display: flex;
+}
+
+.head {
+    width: 97vw;
+    height: 7vh;
+    margin-left: 3vw;
+    display: flex;
+}
+
+.netflix {
+    background-image: url(./images/Logonetflix.png);
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    width: 5vw;
+}
+
+.menu {
+    color: rgba(255, 255, 255, 0.897);
+    display: flex;
+    width: 80vw;
+    font-size: 90%;
+    align-items: center;
+    padding-left: 2vw;
+}
+
+.lupa {
+    background-image: url(./images/lupa.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    width: 2vw;
+}
+
+.campana {
+    background-image: url(./images/campana.png);
+    background-size: 50;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    width: 3vw;
+}
+
+.usuario {
+    margin-top: 1.9vh;
+    margin-right: 5.2vw;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-image: url(./images/user.png);
+    background-position: center;
+    background-size: 110%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+
+}
+
+.main {
+    width: 97vw;
+    height: 93vh;
+    margin-left: 3vw;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 0.3fr 1fr 0.3fr 1fr 0.3fr 1fr; 
+    gap: 10px 8px; 
+}
+
+.titulo1 {
+    grid-column: 1/7;
+    color: rgba(255, 255, 255, 0.897);
+    display: flex;
+    align-items: flex-end;
+    font-size: 1.5vw;
+}
+
+.titulo2 {
+    grid-column: 1/7;
+    color: rgba(255, 255, 255, 0.897);
+    display: flex;
+    align-items: flex-end;
+    font-size: 1.5vw;
+}
+
+.titulo3 {
+    grid-column: 1/7;
+    color: rgba(255, 255, 255, 0.897);
+    display: flex;
+    align-items: flex-end;
+    font-size: 1.5vw;
+}
+
+.box1 {
+    background-image: url(./images/alteredcarbon.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    height: 18vh;
+    border-radius: 8px;
+}
+
+.box2 {
+    background-image: url(./images/witcher.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    height: 18vh;
+    border-radius: 8px;
+}
+
+.box3 {
+    background-image: url(./images/blacksails.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    height: 18vh;
+    border-radius: 8px;
+}
+
+.box4 {
+    background-image: url(./images/brooklyn.webp);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    height: 18vh;
+    border-radius: 8px;
+}
+
+.box5 {
+    background-image: url(./images/kobra.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    height: 18vh;
+    border-radius: 8px;
+}
+
+.box6 {
+    background-image: url(./images/lastkingdom.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    height: 18vh;
+    border-radius: 8px;
+}
+
+.box7 {
+    background-image: url(./images/alice.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    height: 18vh;
+    border-radius: 8px;
+}
+
+.box8 {
+    background-image: url(./images/peaky.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    height: 18vh;
+    border-radius: 8px;
+}
+
+.box9 {
+    background-image: url(./images/sucesor.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    height: 18vh;
+    border-radius: 8px;
+}
+
+.box10 {
+    background-image: url(./images/caballeros.webp);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    height: 18vh;
+    border-radius: 8px;
+}
+
+.box11 {
+    background-image: url(./images/dracula.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    height: 18vh;
+    border-radius: 8px;
+}
+
+.box12 {
+    background-image: url(./images/gantz.webp);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    height: 18vh;
+    border-radius: 8px;
+}
+
+.box13 {
+    background-image: url(./images/ghostraider.webp);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    height: 18vh;
+    border-radius: 8px;
+}
+
+.box14 {
+    background-image: url(./images/house.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    height: 18vh;
+    border-radius: 8px;
+}
+
+.box15 {
+    background-image: url(./images/hoyo.webp);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    height: 18vh;
+    border-radius: 8px;
+}
+
+.box16 {
+    background-image: url(./images/ironman.webp);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    height: 18vh;
+    border-radius: 8px;
+}
+
+.box17 {
+    background-image: url(./images/warcraft.webp);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    height: 18vh;
+    border-radius: 8px;
+}
+
+.box18 {
+    background-image: url(./images/hoyo.webp);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    height: 18vh;
+    border-radius: 8px;
+}
+
