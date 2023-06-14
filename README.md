@@ -7,7 +7,7 @@
 
 (Tarea 2) https://santbrau.github.io/ms-fe-gc-flex-06-2023/Tarea2/
 
-![image](https://github.com/Santbrau/ms-fe-gc-flex-06-2023/assets/135845147/e7500b1d-7a11-4907-affe-ac13981da226)
+![image](https://github.com/Santbrau/ms-fe-gc-flex-06-2023/assets/135845147/c2e4bda2-cbd7-4f0f-bab4-a5955e883e43)
 
 
 (Tarea 3) https://santbrau.github.io/ms-fe-gc-flex-06-2023/Tarea3/
